@@ -1,13 +1,11 @@
 import React from 'react';
 
-import { StyledInicioPage } from './inicio.styles';
+import { StyledInicioPage, Barra } from './inicio.styles';
 
 export default () => {
 
     return (
-        <StyledInicioPage>
-            Algoae
-        </StyledInicioPage>
+        <Barra />
     )
 
 }
